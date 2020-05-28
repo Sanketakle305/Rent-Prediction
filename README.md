@@ -5,7 +5,7 @@ Here is our first dig at a machine learning project
 The aim of the project was about understanding the core concepts of Python and Machine learning 
 
 
-## Inspiration behind the project :
+### Inspiration behind the project :
  
 A lifelong goal of many Indians is homeownership. Although homeownership is high in the India today, it is changing now. 
 Historically, families either needed to build their own homes or buy it from someone else. 
@@ -18,3 +18,15 @@ However, for those who are looking to avoid the hassles of homeownership, the co
 
 If yes can then the first thing that comes to mind is how much will be the Rent of a place with xyz feature ?
 And so we came up with a model with the help of machine learning that predicts the rent of a place given xyz features...
+
+### summary of the process
+-	Data was scrapped from https://www.magicbricks.com/
+-	Data was imported using pandas 
+- Data was then cleaned as some part of the data was in  unclear text format 
+-	Missing values were imputed 
+-	Outliers were detected and removed 
+-	Exploratory Data analysis was done on the clean Data and graphs were drawn 
+-	Next One hot encoding was done 
+-	Data was split into training and testing data 
+-	Different models were built by using different algorithm 
+-	Final model was selected based on R-square score  and RMSE 
